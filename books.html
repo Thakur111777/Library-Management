@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Libaray Management System</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="resource.html">RESOURCES</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our books</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/bnner.png">
+        <h2>Chitkara University's Tagore Library provides a wide range of books to all learners. </h2>
+        
+        <p>Academic Resources: The library houses a vast array of academic texts across various disciplines, supporting students
+        from primary education to higher studies. These resources are essential for research and coursework, ensuring learners
+        have access to the latest knowledge and scholarly works.</p>
+        <br>
+        <p>Fiction and Literature: For those seeking leisure reading, the Tagore Library features a rich selection of fiction and
+        literary works. This division includes classic novels, contemporary literature, and poetry, providing readers with
+        opportunities to explore different cultures and perspectives through storytelling.</p>
+        <br>
+        <p>Reference Materials: The library also provides a comprehensive range of reference materials, including encyclopedias,
+        dictionaries, and specialized databases. These resources are invaluable for learners conducting in-depth research or
+        seeking quick information on specific topics.</p>
+        <br>
+        <p>Digital Resources: Embracing technology, the Tagore Library offers digital books and online learning platforms. This
+        division enhances accessibility, allowing learners to engage with materials from anywhere, thus promoting a flexible and
+        inclusive learning environment.</p>
+        
+        <div class="comment-box">
+            <h2>For more details:</h2>
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Book Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>5000</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>3000</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>4000</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>8000</span>
+            </div>
+            <div>
+                <span>Mathematics</span>
+                <span>4200</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>2200</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>1300</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+<p>
+    Welcome to Chitkara University's Tagore Library, a cornerstone of academic excellence and research support. We provide
+    a diverse
+    collection of resources, including books, journals, and digital materials across various disciplines. Our
+    comfortable
+    reading rooms and collaborative study spaces foster an ideal learning environment. With modern computer facilities
+    and
+    high-speed internet access, users can easily engage with online resources. Our expert librarians offer personalized
+    assistance and workshops to enhance research skills.
+
+    To ensure a conducive atmosphere, we have established library rules, including maintaining silence and respecting
+    library property. The library operates from <b>9:00 am</b> to <b>9:00 pm</b>- <b>Monday to Saturday</b> and <b>9:00
+        am</b>to <b>4:30 pm</b> on <b>Sundays.</b>
+    <hr><b>Note:</b> Food and drinks are not permitted, and personal belongings should be minimal. We are committed to
+    supporting your
+    academic journey and helping you achieve your educational goals.
+</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Chitkara University's <i class="fa fa-heart-o"></i> Tagore Library</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
